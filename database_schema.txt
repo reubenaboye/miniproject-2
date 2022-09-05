@@ -1,0 +1,12 @@
+CREATE TABLE YELP(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    type TEXT,
+    address TEXT,
+    distance NUMERIC,
+    price TEXT,
+    review_count INTEGER,
+    rating NUMERIC);
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE foursquare(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, address TEXT,
+ neighborhood TEXT, distance NUMERIC);
